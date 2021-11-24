@@ -1,0 +1,60 @@
+.form{
+    
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    
+}
+.all{
+    display: flex;  
+}
+.input{
+    border:none;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 30px;
+    width: 250px;
+
+}
+.nameinp{
+    margin-left: 48px;
+    width: 250px;
+}
+.emailinp{
+    margin-left: 57px;
+    width:250px
+}
+.submit{
+    margin-top: 15px; 
+}
+
+.btn{
+    width: 200px;
+    height: 37px;
+    border-radius: 6px;
+    background-color: yellow;
+    cursor: pointer;
+}
+.btn2{
+    width: 200px;
+    height: 37px;
+    border-radius: 6px;
+    background-color: red;
+    cursor: pointer;
+}
+
+label{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.error{
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
